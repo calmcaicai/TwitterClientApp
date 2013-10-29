@@ -34,7 +34,7 @@ public class TweetsAdapter extends ArrayAdapter<Tweet>{
 			view = inflator.inflate(R.layout.tweet_item,null);
 		}
 		Tweet tweet = this.getItem(position);
-		ImageView imageView  = (ImageView) view.findViewById(R.id.ivProfile);
+		ImageView imageView  = (ImageView) view.findViewById(R.id.ivProfileImage);
 		//Log.d("ADAPTER",tweet.getUser().getProfileBackgroundImageUrl());
 		//Log.d("ADAPTER",tweet.getUser().getName());
 		//Log.d("ADAPTER",tweet.getBody());

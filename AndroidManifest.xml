@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="11"
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -53,8 +53,24 @@
         </activity>
         <activity
             android:name="com.codepath.apps.twitterclientapp.ComposeActivity"
-            android:label="@string/title_activity_compose" 
-            android:windowSoftInputMode="stateVisible">
+            android:label="@string/title_activity_compose"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name="com.codepath.apps.twitterclientapp.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.codepath.apps.twitterclientapp.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.codepath.apps.com.twitterclientapp.Main1Activity"
+            android:label="@string/title_activity_main1" >
+        </activity>
+        <activity
+            android:name="com.codepath.apps.twitterclientapp.ProfileActivity"
+            android:label="@string/title_activity_profile" >
         </activity>
     </application>
 

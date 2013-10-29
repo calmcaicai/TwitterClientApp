@@ -5,12 +5,10 @@
     android:orientation="horizontal" >
 
     <ImageView
-        android:id="@+id/ivProfile"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:scaleType="fitXY" 
+        android:id="@+id/ivProfileImage"
+        android:scaleType="centerInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
         />
 
     <LinearLayout

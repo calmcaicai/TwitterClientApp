@@ -16,7 +16,7 @@ public class User extends BaseModel {
     }
 
     public String getProfileBackgroundImageUrl() {
-        return getString("profile_background_image_url");
+        return getString("profile_image_url");//profile_background_image_url");
     }
 
     public int getNumTweets() {
